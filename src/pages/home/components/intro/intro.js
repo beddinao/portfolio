@@ -7,7 +7,7 @@ function Intro (){
       <div>
         <div>
           <h1>intro</h1>
-          <h2>to the bottom</h2>
+          <h2>to</h2>
         </div>
         <div></div>
       </div>

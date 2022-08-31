@@ -1,0 +1,85 @@
+._skills {
+  width : 80% ;
+  height : 70% ;
+  flex-direction : row ;
+  align-items: flex-end ;
+  justify-content: space-between ;
+  z-index: 2 ;
+}
+._skills > div:nth-child(2){
+  height : 50% ;
+  width  : fit-content ;
+  justify-content: flex-end ;
+}
+._skills > div:nth-child(2) > h1{
+  position: sticky ;
+  bottom : 0% ;
+}
+._skills > div:nth-child(2) > h1 a{
+  color : var(--main-color) ;
+  text-decoration: none ;
+  transition-duration: .3s ;
+}
+._skills > div:nth-child(2) > h1 a:hover{
+  text-decoration: underline ;
+  text-decoration-color: var(--main-color ) ;
+}
+._skills > div:nth-child(1) {
+  height : 100% ;
+  width : 70% ;
+  align-self: center ;
+  flex-wrap: wrap ;
+  align-items: flex-start ;
+  justify-content: flex-start ;
+  column-gap: 6em;
+}
+/* */
+
+._skill{
+  width : 48% ;
+  height : 20% ;
+  align-items: center ;
+  flex-direction : row ;
+}
+[data-inviewport='_skill']{
+  transform : translateX(-50%) ;
+  opacity : 0% ;
+}
+[data-inviewport='_skill'].is-in{
+  transform : translateX(0vw) ;
+  opacity : 100% ;
+}
+._skill p{
+  color : var(--background)
+}
+._skill > div:nth-child(1){
+  width : 25% ;
+  height : 50% ;
+  border : 1px solid var(--main-color) ;
+}
+._skill > div:nth-child(1) img {
+  height : 100% ;
+}
+._skill > div:nth-child(2){
+  padding-left: 2% ;
+  height : 100% ;
+  align-items: flex-start ;
+  justify-content: space-evenly ;
+}
+._skill > div:nth-child(2) > div {
+  width : 100% ;
+  height : 1em ;
+  border : 1px solid var(--background) ;
+  align-items: flex-start ;
+}
+._skill > div:nth-child(2) > div > div{
+  height : 100% ;
+  background : var(--background) ;
+  align-items: flex-end ;
+  transition-duration: 1s ;
+}
+._skill > div:nth-child(2) > div > div > p{
+  color : var(--text) ;
+  font-size: 12px ;
+  margin-right: 5px ;
+}

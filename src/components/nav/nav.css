@@ -1,0 +1,15 @@
+#_nav{
+  height : 10vh ;
+  width : 100% ;
+  position : fixed ;
+  top:  0% ;
+  align-items: flex-end ;
+  z-index: 10 ;
+  padding-right: 3em ;
+}
+#_nav h1{
+  font-size: 3em ;
+}
+#_nav a, #_nav a:hover{
+  text-decoration: none ;
+}

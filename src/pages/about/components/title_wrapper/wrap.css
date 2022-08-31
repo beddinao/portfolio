@@ -1,0 +1,35 @@
+._wrap{
+  height : 100vh ;
+  width: fit-content ;
+  position: absolute ;
+  top : 110vh ;
+  left : 0% ;
+  justify-content: space-between ;
+}
+._wrap > div{
+  height : fit-content ;
+  flex-direction : row ;
+  align-items: center ;
+  justify-content: flex-start ;
+  grid-gap: 1em ;
+}
+[data-inviewport='title']{
+  transform : translateX(-50%) ;
+  opacity : 0%;
+  transition-duration: 1s ;
+}
+[data-inviewport='title'].is-in{
+  transform : translateX(0%) ;
+  opacity : 100%;
+}
+._wrap > div > hr{
+  height : 1px ;
+  color: var(--main-color) ;
+  background : transparent ;
+  width : 10em ;
+}
+._wrap > div > h3 {
+  font-size: 1em ;
+  font-weight : thin ;
+  color:  var(--bg)
+}

@@ -1,0 +1,51 @@
+.work_ > div{
+  height : 60vh ;
+  width : 70vw ;
+  flex-direction : row ;
+  justify-content: space-between ;
+}
+.work_ > div:nth-child(2){
+  position: absolute ;
+  z-index: -1 ;
+  border: 1px solid var(--main-color);
+  background : var(--background) ;
+  background-size : cover ;
+  background-position : center ;
+}
+[data-inviewport="w_img"]{
+  transform: translateX(10vw);
+  transition-duration: .5s ;
+}
+[data-inviewport="w_img"].is-in{
+  transform: translateX(0vw);
+}
+.work_ > div:nth-child(1) > div {
+  width : 50% ;
+}
+.work_ > div:nth-child(1) > div:nth-child(1){
+  height : 60% ;
+  justify-content: space-evenly ;
+  align-items: flex-start ;
+}
+[data-inviewport="w_txt_con"]{
+  transform : translateX(-75%) ;
+  transition-duration: 1s ;
+}
+[data-inviewport="w_txt_con"].is-in{
+  transform : translateX(-25%) ;
+}
+.work_ > div:nth-child(1) > div:nth-child(1) button{
+  transform : translateX(10vw)
+}
+.work_ > div:nth-child(1) > div:nth-child(2){
+  height: 100% ;
+  border : 1px solid var(--main-color) ;
+  z-index: -1 ;
+}
+[data-inviewport='w_sh_con']{
+  transition-duration: 1s ;
+  transform : translate(10em,1em) ;
+}
+[data-inviewport='w_sh_con'].is-in{
+  transform: translate(1em,1em);
+}

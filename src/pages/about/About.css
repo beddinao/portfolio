@@ -1,0 +1,35 @@
+._about{
+  background : var(--text) ;
+}
+._about h1{
+  color : var(--background)
+}
+._about > #center {
+  flex-direction: row ;
+}
+/* */
+.svg_{
+  height : 80vh ;
+  width : 70vw ;
+  position: absolute ;
+}
+.con_f{
+  align-self: flex-start ;
+  left : 0% ;
+}
+.con_s{
+  align-self: flex-end ;
+  right : 0% ;
+}
+#_svg_{
+  height : 100% ;
+  width : 100% ;
+}
+#_svg_ path{
+  fill : var(--background) ;
+}
+/* */
+._about ._footer {
+  background: var(--background );
+}
+/* */

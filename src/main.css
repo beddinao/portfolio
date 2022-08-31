@@ -1,0 +1,70 @@
+:root{
+  --main-color : #D4A373 ;
+  --background : #000 ;
+  --bg : #111 ;
+  --text : #ccc ;
+  --txt : #989898 ;
+}
+*{
+  padding: 0px ;
+  margin : 0px ;
+  box-sizing: border-box
+}
+html{
+  scroll-behavior: smooth ;
+  scroll-snap-type: y mandatory ;
+  scroll-snap-points-y: repeat(100%) ;
+  scrollbar-width: 10px ;
+  scrollbar-color: var(--bg) ;
+  transition-duration: 1s ;
+}
+body {
+  width: 100% ;
+  background: var(--background) ;
+  color: var(--text) ;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: transparent ;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--bg);
+}
+/*@font-face {
+  font-family: 'Bilbo';
+  src:url('./lib/fonts/BilboSwashCaps-Regular.ttf') format('truetype');
+}*/
+/*@font-face {
+  font-family:'El Messiri';
+  src:url('./lib/fonts/ElMessiri-VariableFont_wght.ttf') format('truetype');
+}*/
+main{
+  width : 100% ;
+}
+div{
+  width : 100% ;
+  display : flex ;
+  flex-direction : column ;
+  align-items : center ;
+  justify-content: center ;
+}
+h1{ 
+  font-family : 'El Messiri' ;
+}
+.arc_h1{
+  color : var(--text) ;
+  font-size: 8em ;
+}
+p {
+  font-size : 15px ;
+}
+#center{
+  height : 100vh ;
+  scroll-snap-align: center ;
+}
+.for-st{
+  color : var(--main-color) ;
+  font-style: italic ;
+}

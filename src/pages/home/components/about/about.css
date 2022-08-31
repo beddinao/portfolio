@@ -1,0 +1,40 @@
+.about_ > div:nth-child(1){
+  width : 70vw ;
+  align-items: flex-start ;
+}
+.about_ > div:nth-child(1) > div {
+  height: 30vh ;
+  justify-content: space-around ;
+  align-items: flex-start ;
+}
+[data-inviewport="a_txt_1"]{
+  transition-duration: .8s ;
+  transform : translateX(-15vw) ;
+}
+[data-inviewport="a_txt_1"].is-in{
+  transform : translateX(0vw) ;
+}
+.about_ > div:nth-child(1) > div > button {
+  transform: translateX(10vw) ;
+}
+.about_ > div:nth-child(1) > h1{
+  align-self: flex-end ;
+  width : 40vw ;
+  text-align: center ;
+  color : var(--background) ;
+  /*color: #9B948E;*/
+}
+.about_ > div:nth-child(2) {
+  position: absolute ;
+  height : 40vw ;
+  width : 40vw ;
+  z-index: -1 ;
+  background: conic-gradient(from 135deg, rgba(155, 148, 142,0),#9B948E);
+}
+[data-inviewport="a_des"]{
+  transition-duration: 1.3s ;
+  transform : translateX(-30vw) ;
+}
+[data-inviewport="a_des"].is-in{
+  transform : translateX(15vw) ; 
+}

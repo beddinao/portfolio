@@ -1,0 +1,30 @@
+.intro > div {
+  height : 70vh ;
+  width : 90vw ;
+  flex-direction : row ;
+  align-items: center ;
+  justify-content : space-between ;
+  border : 1px solid var(--main-color) ;
+  transform : translateY(-5vh);
+}
+.intro > div > div:nth-child(1){
+  align-self: flex-end ;
+  align-items: flex-start ;
+  padding : 2em ;
+}
+.intro h1{
+  font-size: 3em ;
+  color : transparent ;
+  -moz-text-stroke : 1px var(--main-color) ;
+  -webkit-text-stroke: 1px var(--main-color);
+}
+.intro > div > div:nth-child(1) h2{
+  font-size: 1em ;
+  font-family: 'Bilbo';
+  font-style: italic ;
+  color : var(--main-color)
+}
+.intro > div > div:nth-child(2){
+  height : 100% ;
+  width : 80% ;
+}

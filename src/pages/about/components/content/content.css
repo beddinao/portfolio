@@ -1,0 +1,21 @@
+._cont > div {
+  width : 80vw ;
+  align-items: flex-end ;
+}
+._cont > div > div {
+  width : 50% ;
+  align-items: flex-start ;
+}
+[data-inviewport="_cont"]{
+  transition : 1s ;
+  transform : translateX(-100%);
+  opacity : 0% ;
+}
+[data-inviewport="_cont"].is-in{
+  transform : translateX(0%);
+  opacity : 100% ;
+}
+._cont > div > div > p{
+  max-width : 30vw ;
+  color : var(--bg)
+}

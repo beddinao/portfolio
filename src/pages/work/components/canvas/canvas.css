@@ -1,0 +1,31 @@
+.c_anvas{
+  justify-content: flex-start ;
+}
+.c_anvas > div {
+  height : 90vh ;
+  width : 40vw ;
+  padding : .5em ;
+  padding-top: 0em ;
+  border : 1px solid var(--main-color) ;
+  border-top : none ;
+}
+.c_anvas > div > div {
+  height : 100% ;
+  background : url('') ;
+  background-size : cover ;
+  background-position : cover ;
+  border:  1px solid var(--bg) ;
+}
+.c_anvas > div > div > h1{
+  font-size: 4em ;
+  color : var(--text) ;
+}
+[data-inviewport='c_h1']{
+  transition-duration : 1s ;
+  transform : translateY(-20vh) ;
+  opacity : 0%
+}
+[data-inviewport='c_h1'].is-in{
+  transform : translateY(0vh) ;
+  opacity : 100%
+}

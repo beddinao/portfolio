@@ -1,0 +1,24 @@
+._footer{
+  height : 30vh ;
+  width : 100% ;
+  scroll-snap-align : center ;
+  align-items : center ;
+  border-top : 1px solid var(--main-color) 
+}
+._footer > div {
+  height : 80% ;
+  width : 80% ;
+  align-items: flex-end ;
+}
+._footer a{
+  color : rgb(10,10,10) ;
+  text-decoration: none ;
+  transition-duration: .3s ;
+}
+._footer a:hover{
+  color : var(--main-color) ;
+  text-decoration: none ;
+}
+._footer a:active{
+  text-decoration: underline ;
+}

@@ -2,7 +2,7 @@
   justify-content: flex-end ;
 }
 .c_ontent > div:nth-child(1) {
-  width : 90% ;
+  width : 80% ;
   height : 60% ;
   flex-direction: row ;
   justify-content: space-between ;
@@ -35,16 +35,18 @@
   text-decoration: none ;
 }
 .c_ontent > div:nth-child(1) > div:nth-child(2) {
-  border : 1px solid rgb(10,10,10) ;
-  width : 35em ;
+  width : 37em ;
   height : 40vh ;
+}
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div {
+  height : 100% ;
   align-items: flex-start ;
-  overflow : hidden ;
+  overflow : hidden 
 }
 [data-inviewport='c_ri_di']{
   transform : translateX(-150%) ;
 }
-.c_ontent > div:nth-child(1) > div:nth-child(2) > div {
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div >  div {
   transition-duration: 2s ;
   align-items : flex-start ;
   width: fit-content;
@@ -58,8 +60,8 @@
   transition-duration: 1.5s ;
   opacity : 00% ;
 }
-.c_ontent > div:nth-child(1) > div:nth-child(2) > div > img {
-  width : 35em ;
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > img {
+  width : 37em ;
   height : 100% ;
 }
 @keyframes slid_i{
@@ -75,13 +77,13 @@
   animation : shoo 2s linear infinite alternate
 }
 [data-inviewport='c_ri_di'].is-in ,
-[data-inviewport='c_le_di'].is-in{
+[data-inviewport='c_le_di'].is-in {
   opacity : 100% ;
   transform : translateX(0%)
 }
 .c_ontent > div:nth-child(1) > div:nth-child(2)::after{
   content :  '' ;
-  width : 35em ;
+  width : 37em ;
   position: absolute ;
   height : 40vh ;
   border : 1px solid var(--main-color) ;

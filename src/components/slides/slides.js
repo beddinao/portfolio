@@ -4,7 +4,7 @@ import './slides.css' ;
 var hr_s ;
 const hr_sty = (t) => {
   $(`._slides hr:not(._slides hr:nth-child(${t + 1}))`).css('width','3em')
-  $(hr_s[t]).css('width','6em')
+  $(hr_s[t]).css('width','5em')
 }
 
 function Slides(props){

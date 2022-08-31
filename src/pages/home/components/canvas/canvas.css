@@ -1,9 +1,8 @@
 .canvas > div:nth-child(1){
   height : 70vh ;
-  width : 70vw ;
+  width : 60vw ;
   border : 1px solid var(--main-color) ;
   transition-duration: 1s ;
-  justify-content: flex-start ;
 }
 [data-inviewport='canvas_con']{
   transform : translateY(15vh)
@@ -14,7 +13,14 @@
 .canvas > div:nth-child(1){
   background : url('./img/bigwave_japan-new1.png') ;
   background-position : center ;
-  background-size : 90% ;
+  background-size : 95% ;
+}
+.canvas > div:nth-child(2) > div > div {
+  transform : translate(5vh , 5vh) ;
+  height : 15em ;
+  width : 15em ;
+  border-radius : 50% ;
+  background :var(--background) ;
 }
 .canvas > div:nth-child(2) {
   position : absolute ;
@@ -31,13 +37,6 @@
   background :url('./img/augustine-wong-t0byurbdk_m-unsplash_2.jpg');
   background-size : cover ;
   background-position : center ;
-}
-.canvas > div:nth-child(1) > div{
-  z-index: -1 ;
-  transform : translateY(10vh) ;
-  height : 15em ;
-  width : 15em ;
-  border-radius : 50% ;
-  background :var(--background)
+  display : unset ;
 }
 

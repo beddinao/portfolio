@@ -9,6 +9,7 @@ import Canvas_ from './components/canvas/f-pa' ;
 import Content from './components/content/content' ;
 import Skills from './components/skills/skills' ;
 import { Wrap } from './components/title_wrapper/wrap' ;
+import Load from '../../components/load/load' ;
 
 var con_ , wid , hei;
 
@@ -48,27 +49,29 @@ function About(){
     observe() ;
   },[]) ;
   return(
-    <main className='_about' >
-      <Nav color='var(--background)' >
-        <Link to='/work'>Work</Link>
-      </Nav>
-      <Slides h='3' />
-      <div id='center' >
-        <Canvas_ />
-        <div className="svg_ con_f">
-          <svg id='_svg_' xmlns='http://wwww.w3.org/2000/svg' ></svg>
+    <Load>
+        <main className='_about' >
+        <Nav color='var(--background)' >
+          <Link to='/work'>Work</Link>
+        </Nav>
+        <Slides h='3' />
+        <div id='center' >
+          <Canvas_ />
+          <div className="svg_ con_f">
+            <svg id='_svg_' xmlns='http://wwww.w3.org/2000/svg' ></svg>
+          </div>
         </div>
-      </div>
-      <Content />
-      <Wrap />
-      <div id='center' >
-        <Skills />
-        <div className="svg_ con_s">
-          <svg id='_svg_' xmlns='http://wwww.w3.org/2000/svg' ></svg>
+        <Content />
+        <Wrap />
+        <div id='center' >
+          <Skills />
+          <div className="svg_ con_s">
+            <svg id='_svg_' xmlns='http://wwww.w3.org/2000/svg' ></svg>
+          </div>
         </div>
-      </div>
-      <Footer />
-    </main>
+        <Footer />
+      </main>
+    </Load>
   )
 }
 

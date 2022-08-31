@@ -6,17 +6,20 @@ import About from './components/about/about' ;
 import Work from './components/work/work' ;
 import Footer from '../../components/footer/footer' ;
 import { observe } from '../../lib/observe/observe' ;
+import Load from '../../components/load/load' ;
 
 function Home(){
   useEffect(observe,[])
   return(
-    <main>
-      <Intro />
-      <Canvas />
-      <Work />
-      <About />
-      <Footer />
-    </main>
+    <Load imgs_list={[ './components/canvas/img/bigwave_japan-new1.png' , './components/canvas/img/augustine-wong-t0byurbdk_m-unsplash_2.jpg' , './components/work/img/pawel-czerwinski-4qhg5ewdrau-unsplash.jpg' ]} >
+        <main>
+          <Intro />
+          <Canvas />
+          <Work />
+          <About />
+          <Footer />
+        </main>
+    </Load>
   )
 }
 

@@ -64,10 +64,12 @@ function C_ontent(){
           {project.info}
         </div>
         <div data-inviewport='c_ri_di' >
-          <div id='to_animate' >
-            {project.img_1}
-            {project.img_2}
-            {project.img_3}
+          <div>
+            <div id='to_animate' >
+              {project.img_1}
+              {project.img_2}
+              {project.img_3}
+            </div>
           </div>
         </div>
       </div>

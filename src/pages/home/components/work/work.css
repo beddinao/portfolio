@@ -8,7 +8,7 @@
   position: absolute ;
   z-index: -1 ;
   border: 1px solid var(--main-color);
-  background : var(--background) ;
+  background : url('./img/pawel-czerwinski-4qhg5ewdrau-unsplash.jpg') ;
   background-size : cover ;
   background-position : center ;
 }

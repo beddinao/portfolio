@@ -9,7 +9,6 @@ import Canvas_ from './components/canvas/f-pa' ;
 import Content from './components/content/content' ;
 import Skills from './components/skills/skills' ;
 import { Wrap } from './components/title_wrapper/wrap' ;
-import Load from '../../components/load/load' ;
 
 var con_ , wid , hei;
 
@@ -49,7 +48,6 @@ function About(){
     observe() ;
   },[]) ;
   return(
-    <Load>
         <main className='_about' >
         <Nav color='var(--background)' >
           <Link to='/work'>Work</Link>
@@ -71,7 +69,6 @@ function About(){
         </div>
         <Footer />
       </main>
-    </Load>
   )
 }
 

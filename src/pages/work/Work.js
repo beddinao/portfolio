@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom' ;
 import Nav from '../../components/nav/nav' ;
 import C_anvas from './components/canvas/c_anvas' ;
 import C_ontent from './components/content/content' ;
-import Load from '../../components/load/load' ;
+
 
 function Work(){
   useEffect(()=>{
@@ -15,7 +15,7 @@ function Work(){
     observe() ;
   },[])
   return (
-    <Load>
+
       <main>
         <Nav color='var(--text)' >
           <Link to='/about'>About</Link>
@@ -25,7 +25,7 @@ function Work(){
         <Slides h='2' />
         <Footer />
       </main>
-    </Load>
+
   )
 }
 

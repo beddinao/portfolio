@@ -6,13 +6,13 @@ import About from './components/about/about' ;
 import Work from './components/work/work' ;
 import Footer from '../../components/footer/footer' ;
 import { observe } from '../../lib/observe/observe' ;
-import Load from '../../components/load/load' ;
+
 
 
 function Home(){
   useEffect(observe,[])
   return(
-    <Load  >
+
         <main>
           <Intro />
           <Canvas />
@@ -20,7 +20,7 @@ function Home(){
           <About />
           <Footer />
         </main>
-    </Load>
+
   )
 }
 

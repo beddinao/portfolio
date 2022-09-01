@@ -8,7 +8,7 @@ import Footer from '../../components/footer/footer' ;
 import { observe } from '../../lib/observe/observe' ;
 import Load from '../../components/load/load' ;
 
-const arr = [ { u : '/src/pages/home/components/canvas/img/bigwave_japan-new1.png'} , { u :'/src/pages/home/components/canvas/img/augustine-wong-t0byurbdk_m-unsplash_2.jpg'} , { u :'/src/pages/home/components/work/img/pawel-czerwinski-4qhg5ewdrau-unsplash.jpg'} ]
+const arr = [ '/home/components/canvas/img/bigwave_japan-new1.png' , '/home/components/canvas/img/augustine-wong-t0byurbdk_m-unsplash_2.jpg' , '/home/components/work/img/pawel-czerwinski-4qhg5ewdrau-unsplash.jpg' ]
 
 
 function Home(){

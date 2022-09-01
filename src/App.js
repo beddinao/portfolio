@@ -13,8 +13,8 @@ export default function App() {
     <BrowserRouter >
       <Routes>
         <Route index path="/" element={<Loads><Home /></Loads>} />
-        <Route path="about" element={<Loads><About /></Loads>} />
-        <Route path="work" element={<Loads><Work /></Loads>} />
+        <Route path="about" element={<About />} />
+        <Route path="work" element={<Work />} />
       </Routes>
     </BrowserRouter>
   );

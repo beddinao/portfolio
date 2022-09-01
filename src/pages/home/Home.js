@@ -11,7 +11,7 @@ import Load from '../../components/load/load' ;
 function Home(){
   useEffect(observe,[])
   return(
-    <Load imgs_list={[ './components/canvas/img/bigwave_japan-new1.png' , './components/canvas/img/augustine-wong-t0byurbdk_m-unsplash_2.jpg' , './components/work/img/pawel-czerwinski-4qhg5ewdrau-unsplash.jpg' ]} >
+    <Load imgs_list={[ '/components/canvas/img/bigwave_japan-new1.png' , '/components/canvas/img/augustine-wong-t0byurbdk_m-unsplash_2.jpg' , '/components/work/img/pawel-czerwinski-4qhg5ewdrau-unsplash.jpg' ]}  >
         <main>
           <Intro />
           <Canvas />

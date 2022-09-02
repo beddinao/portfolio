@@ -4,33 +4,58 @@
   flex-direction : row ;
   align-items: flex-start ;
   justify-content: space-between ;
-  z-index: 2 ;
+  z-index: 2
 }
 ._canvas > div{
-  height : 50% ;
+  height : 50%
 }
 ._canvas > div:nth-child(1){
   width  : fit-content ;
-  justify-content: flex-start ;
+  justify-content: flex-start
 }
 ._canvas > div:nth-child(1) > div{
   position: sticky ;
   align-items: center ;
-  top : 0% ;
+  top : 0%
 }
 ._canvas > div:nth-child(1) > div > h1 ,
 ._canvas > div:nth-child(1) > div > h3 {
   color : var(--main-color) ;
 }
 ._canvas > div:nth-child(1) > div > h1 {
-  font-size: 2em ;
+  font-size: 2em
 }
 ._canvas > div:nth-child(1) > div > h3{
   font-size: 1em ;
-  font-style: italic ;
+  font-style: italic 
 }
+/* */
 ._canvas > div:nth-child(2){
   width : 50% ;
   align-self: center ;
-  border : 1px solid var(--main-color)
+  border : 1px solid var(--main-color) ;
+  justify-content: flex-end ;
+  background: var(--background)
+}
+._canvas > div:nth-child(2) > div {
+  height : 100%
+}
+._canvas > div:nth-child(2) h1 {
+  font-size: 6em;
+  letter-spacing: 1em ;
+  color : var(--main-color) ;
+  font-family : serif
+}
+._canvas > div:nth-child(2) > div:nth-child(1) {
+  background:linear-gradient(to right bottom,rgb(5,5,5) 10%, rgba(255, 255, 255,.3) )
+}
+._canvas > div:nth-child(2) > div:nth-child(2) {
+  border : 1px solid var(--txt)
+}
+._canvas > div:nth-child(2) > div:nth-child(2) > h1 {
+  color: transparent;
+  background: linear-gradient(to left top,#000 30%, rgba(255, 255, 255,.3) 100%);
+  -webkit-background-clip : text ;
+  -moz-background-clip : text ;
+  background-clip: text
 }

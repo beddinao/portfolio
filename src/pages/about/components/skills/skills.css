@@ -55,20 +55,19 @@
 ._skill > div:nth-child(1){
   width : 25% ;
   height : 50% ;
- 
 }
 ._skill > div:nth-child(1) img {
-  height : 100% ;
+  height : 80% ;
 }
 ._skill > div:nth-child(2){
   padding-left: 2% ;
-  height : 100% ;
+  height : 50% ;
   align-items: flex-start ;
   justify-content: space-evenly ;
 }
 ._skill > div:nth-child(2) > div {
   width : 100% ;
-  height : 1em ;
+  height : .8em ;
   border : 1px solid var(--background) ;
   align-items: flex-start ;
 }
@@ -80,6 +79,6 @@
 }
 ._skill > div:nth-child(2) > div > div > p{
   color : var(--text) ;
-  font-size: 12px ;
+  font-size: 10px ;
   margin-right: 5px ;
 }

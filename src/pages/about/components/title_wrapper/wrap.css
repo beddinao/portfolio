@@ -24,8 +24,8 @@
 }
 ._wrap > div > hr{
   height : 1px ;
-  color: var(--main-color) ;
-  background : transparent ;
+  background : var(--main-color) ;
+  border : var(--main-color) ;
   width : 10em ;
 }
 ._wrap > div > h3 {

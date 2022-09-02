@@ -54,6 +54,7 @@
   width: fit-content;
   height : 100% ;
   flex-direction: row ;
+  align-items: flex-start ;
 }
 
 [data-inviewport='c_ri_di'] ,
@@ -150,7 +151,7 @@
     transform : translateY(0%)
   }
 }
-#side_{
+#slid_{
   min-height : 600% ;
   animation : slid_ 8s infinite alternate
 }

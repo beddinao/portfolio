@@ -16,7 +16,7 @@
   background-size : 95% ;
 }
 .canvas > div:nth-child(2) > div > div {
-  transform : translate(5vh , 5vh) ;
+  transform : translate(5vh , 10vh) ;
   height : 15em ;
   width : 15em ;
   border-radius : 50% ;

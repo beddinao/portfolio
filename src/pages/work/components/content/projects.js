@@ -6,12 +6,12 @@ import spectrum_screen_3 from './img_/_spectrum/ss-screen3.png' ;
 //import sh_wave_screen_2 from './img_/_sh-wave/sh-wave2.jpg' ;
 //import sh_wave_screen_3 from './img_/_sh-wave/sh-wave3.jpg' ;
 import tim_screen from './img_/_tim/tim-screen1.png' ;
-import project_11 from './img/project11.png' ;
-import project_12 from './img/project12.png' ;
-import project_13 from './img/project13.png' ;
-import project_21 from './img/project21.jpg' ;
-import project_22 from './img/project22.jpg' ;
-import project_23 from './img/project23.jpg' ;
+import project_11 from './img_/project11.png' ;
+import project_12 from './img_/project12.png' ;
+import project_13 from './img_/project13.png' ;
+import project_21 from './img_/project21.jpg' ;
+import project_22 from './img_/project22.jpg' ;
+import project_23 from './img_/project23.jpg' ;
 
 
 

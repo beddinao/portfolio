@@ -55,7 +55,7 @@
 ._skill > div:nth-child(1){
   width : 25% ;
   height : 50% ;
-  border : 1px solid var(--main-color) ;
+ 
 }
 ._skill > div:nth-child(1) img {
   height : 100% ;

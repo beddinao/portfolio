@@ -6,12 +6,12 @@ import spectrum_screen_3 from './img_/_spectrum/ss-screen3.png' ;
 //import sh_wave_screen_2 from './img_/_sh-wave/sh-wave2.jpg' ;
 //import sh_wave_screen_3 from './img_/_sh-wave/sh-wave3.jpg' ;
 import tim_screen from './img_/_tim/tim-screen1.png' ;
-import project_11 from './img_/project11.png' ;
-import project_12 from './img_/project12.png' ;
-import project_13 from './img_/project13.png' ;
-import project_21 from './img_/project21.jpg' ;
-import project_22 from './img_/project22.jpg' ;
-import project_23 from './img_/project23.jpg' ;
+import project_11 from './img/project11.png' ;
+import project_12 from './img/project12.png' ;
+import project_13 from './img/project13.png' ;
+import project_21 from './img/project21.jpg' ;
+import project_22 from './img/project22.jpg' ;
+import project_23 from './img/project23.jpg' ;
 
 
 
@@ -52,13 +52,13 @@ export const projects = [
     name : 'Mtravelers' ,
     info : <p>Whether you are considering a trip to <span className='for-st'>morocco </span>or just interested in trying out the culture, you will find everything you need to know here.</p> ,
     link : '#' ,
-    img_1 : <img src={project_21} /> ,
-    img_2 : <img src={project_22} /> ,
-    img_3 : <img src={project_23} /> ,
-    bar_wid : '80'
+    img_1 : <img src={project_21} id='slid_i' /> ,
+    img_2 : <img src={project_22} id='slid_i' /> ,
+    img_3 : <img src={project_23} id='slid_i' /> ,
+    bar_wid : '80' ,
   } ,
   {
-    id :5 ,
+    id : 4 ,
     name : 'Linear' ,
     info : <p>This site is dedicated to discussing the most<span className='for-st' > interesting</span> dark issues of our time.</p> ,
     link : '#' ,

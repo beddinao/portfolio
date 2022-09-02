@@ -7,9 +7,9 @@
   flex-direction: row ;
   justify-content: space-between ;
 }
-@media only screen and (min-width : 100px ){
+@media only screen and (max-width : 900px ){
   .c_ontent > div:nth-child(1) {
-    flex-direction : column ;
+    flex-direction : column 
   }
 }
 .c_ontent > div:nth-child(1) > div:nth-child(1){
@@ -60,6 +60,7 @@
   column-gap: 2em ;
   justify-content: space-between ;
 }
+
 [data-inviewport='c_ri_di'] ,
 [data-inviewport='c_le_di']{
   transition-duration: 1.5s ;
@@ -71,15 +72,15 @@
 }
 @keyframes slid_i{
   0%{
-    transform : translateY(-70%)
+    transform : translateY(-250%)
   }
   100%{
     transform : translateY(0%)
   }
 }
 #slid_i{
-  min-height : 170% ;
-  animation : shoo 2s linear infinite alternate
+  min-height : 350% ;
+  animation : slid_i 5s linear infinite alternate
 }
 [data-inviewport='c_ri_di'].is-in ,
 [data-inviewport='c_le_di'].is-in {

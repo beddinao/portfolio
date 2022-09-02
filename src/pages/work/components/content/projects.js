@@ -37,9 +37,9 @@ export const projects = [
     name : 'Twamigo Media' ,
     info : <p> Agency that specialise in all e-marketing related services. </p> ,
     link : '#' ,
-    img_1 : <img src={tim_screen} id='slid_i'/> ,
-    img_2 : <img src={tim_screen} id='slid_i'/> ,
-    img_3 : <img src={tim_screen} id='slid_i'/> ,
+    img_1 : <img src={tim_screen} id='slid_'/> ,
+    img_2 : <img src={tim_screen} id='slid_'/> ,
+    img_3 : <img src={tim_screen} id='slid_'/> ,
     bar_wid : '60' ,
   } ,
   {

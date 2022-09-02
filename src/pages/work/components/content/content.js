@@ -3,14 +3,6 @@ import { projects } from './projects' ;
 import './content.css' ;
 
 
-
-var interv ;
-const lit_slid = [
-  { l : 'translateX(0em)'} ,
-  { l : 'translateX(-68%)'} ,
-  { l : 'translateX(-34%)'} ,
-] ;
-
 function C_ontent(){
   let which_project = 0 ;
   const [ project , set_project ] = useState(projects[which_project]) ;

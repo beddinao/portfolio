@@ -51,6 +51,26 @@
 [data-inviewport='c_ri_di']{
   transform : translateX(-150%) ;
 }
+@keyframes slider{
+  0%{
+    transform  : translateX(0%)
+  }
+  31%{
+    transform  : translateX(0%)
+  }
+  35%{
+    transform  : translateX(-68%)
+  }
+  64%{
+    transform  : translateX(-68%)
+  }
+  69%{
+    transform : translateX(-34%)
+  }
+  100%{
+    transform : translateX(-34%)
+  }
+}
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div >  div {
   transition-duration: 2s ;
   align-items : flex-start ;
@@ -59,6 +79,7 @@
   flex-direction: row ;
   column-gap: 2em ;
   justify-content: space-between ;
+  animation : slider 36s linear infinite alternate ;
 }
 
 [data-inviewport='c_ri_di'] ,
@@ -72,15 +93,27 @@
 }
 @keyframes slid_i{
   0%{
-    transform : translateY(-250%)
+    transform : translateY(-66.66%)
+  }
+  100%{
+    transform : translateY(0%)
+  }
+}
+@keyframes slid_ii{
+  0%{
+    transform : translateY(-33.33%)
   }
   100%{
     transform : translateY(0%)
   }
 }
 #slid_i{
-  min-height : 350% ;
+  min-height : 300% ;
   animation : slid_i 5s linear infinite alternate
+}
+#slid_ii{
+  min-height : 150% ;
+  animation : slid_ii 5s linear infinite alternate
 }
 [data-inviewport='c_ri_di'].is-in ,
 [data-inviewport='c_le_di'].is-in {

@@ -30,29 +30,12 @@ function C_ontent(){
     }
     set_project(projects[which_project]) ;
   }
-  function to_an(){
-    let to_animate = document.getElementById('to_animate') ;
-    let which_img = 0 ;
-    interv = setInterval(()=>{
-      which_img++ ;
-      if(which_img >= lit_slid.length){
-        which_img = 0 ;
-      }
-      $(to_animate).css('transform',lit_slid[which_img].l)
-    },12000)
-    document.onkeydown = check_key ;
-  }
-  
-  function from_an(){
-    clearInterval(interv) ;
-    document.onkeydown = null ;
-  }
 
   useEffect(()=>{
-    to_an() ;
+    document.onkeydown = check_key ;
     //
     return()=>{
-      from_an()
+      document.onkeydown = null ;
       //
     }
   },[])

@@ -8,7 +8,7 @@ function Loads(props){
 
   useEffect(()=>{
     setTimeout(()=>{
-      set_is_vesibile(true)
+      set_is_visible(true)
     },3000)
     
   },[])

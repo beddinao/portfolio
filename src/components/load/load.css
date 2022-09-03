@@ -1,12 +1,25 @@
 ._load{
-  background  : rgb(1,1,1)
+  background  : rgb(3,3,3)
+}
+._load > img {
+  border-radius: 50% ;
+}
+@keyframes spen{
+  0%{
+    transform : rotate(0deg)
+  }
+  100%{
+    transform : rotate(360deg)
+  }
 }
 ._load > img:nth-child(1){
-  height : 5em;
-  width : 5em 
+  height : 2em ;
+  width : 2em ;
 }
 ._load > img:nth-child(2){
   position : absolute ;
-  height : 4em;
-  width : 4em 
+  height : 3em ;
+  width : 3em ;
+  box-shadow: 0 0 0 1px rgb(10,10,10);
+  animation : spen .3s ease infinite
 }

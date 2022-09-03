@@ -1,1 +1,12 @@
-
+._load{
+  background  : rgb(1,1,1)
+}
+._load > img:nth-child(1){
+  height : 5em;
+  width : 5em 
+}
+._load > img:nth-child(2){
+  position : absolute ;
+  height : 4em;
+  width : 4em 
+}

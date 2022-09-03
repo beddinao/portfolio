@@ -8,9 +8,9 @@ function I_slid_(props){
   return(
     <div>
       <div>
-        <img src={props.i_1} />
-        <img src={props.i_2} />
-        <img src={props.i_3} />
+        {props.i_1}
+        {props.i_2}
+        {props.i_3}
       </div>
     </div>
   )
@@ -48,9 +48,6 @@ function C_ontent(){
     set_project(projects[which_project]) ;
     
   }
-
-
-
 
 
   useEffect(()=>{

@@ -52,10 +52,10 @@ function C_ontent(){
 
   useEffect(()=>{
     document.onkeydown = check_key ;
-    //
+    
     return()=>{
       document.onkeydown = null ;
-      //
+      
     }
   },[])
   return(

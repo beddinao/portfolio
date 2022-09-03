@@ -1,11 +1,12 @@
 ._load{
   background  : rgb(3,3,3) ;
   width : 100% ;
+  height : 100vh ;
 }
-._load > div {
+._loading {
   height : 100% ;
 }
-._load > div > img {
+._loading > img {
   border-radius: 50% ;
 }
 @keyframes spen{
@@ -16,11 +17,11 @@
     transform : rotate(360deg)
   }
 }
-._load > div > img:nth-child(1){
+._loading > img:nth-child(1){
   height : 2em ;
   width : 2em ;
 }
-._load > div > img:nth-child(2){
+._loading > img:nth-child(2){
   position : absolute ;
   height : 3em ;
   width : 3em ;

@@ -5,7 +5,7 @@ import ico_2 from './vector.png' ;
 
 export function Loading(){
   return(
-    <div>
+    <div className='_loading' >
       <img src={ico_1} />
       <img src={ico_2} />
     </div>

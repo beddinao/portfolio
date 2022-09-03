@@ -13,16 +13,18 @@ function Skill(props){
     $(`.p_${props.p}`).html(p)
   }
   useEffect(()=>{
-    function per_coun(){
-      if( per < ori_per ){
-        per++
-      }else{
-        per = ori_per ;
-        clearInterval(interv) ;
+    setTimeout(()=>{
+      function per_coun(){
+        if( per < ori_per ){
+          per++
+        }else{
+          per = ori_per ;
+          clearInterval(interv) ;
+        }
+        sty( per + '%' )
       }
-      sty( per + '%' )
-    }
-    const interv = setInterval(per_coun,150)
+      const interv = setInterval(per_coun,150)
+    },3000)
   },[])
   _speed = _speed + 0.1 ;
   return(
@@ -43,6 +45,9 @@ function Skill(props){
 }
 
 function Skills(){
+  useEffect(()=>{
+    _speed = 0.1 ;
+  },[])
   return(
     <div className='_skills'>
       <div>

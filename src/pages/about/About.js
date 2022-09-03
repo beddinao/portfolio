@@ -49,7 +49,7 @@ function About(){
   },[]) ;
   return(
         <main className='_about' >
-        <Slides h='3' c='var(--bg)'>
+        <Slides h='3' c='var(--bg)' c_1='var(--bg)' >
           <Link to='/work'>Work</Link>
         </Slides>
         <div id='center' >

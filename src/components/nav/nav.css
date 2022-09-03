@@ -13,7 +13,8 @@
   font-size: 2em ;
 }
 #_nav a{
-  color : var(--main-color)
+  color : var(--main-color) ;
+  transition-duration: .3s ;
 }
 #_nav a, #_nav a:hover{
   text-decoration: none ;

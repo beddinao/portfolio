@@ -2,17 +2,22 @@ import React , { memo , useEffect } from 'react' ;
 import './slides.css' ;
 import Nav from '../nav/nav' ;
 
-var hr_s , hr_s_c ;
+var hr_s , hr_s_c , a_s_c ;
 const hr_sty = (t) => {
   $(`._slides hr:not(._slides hr:nth-child(${t + 1}))`).css('width','3em')
   $(hr_s[t]).css('width','5em')
   $(`._slides hr`).css('background',hr_s_c[t])
-  $('#_nav > h1  a').css('color', hr_s_c[t])
+  $('#_nav > h1  a').css('color', a_s_c[t])
 }
 
 function Slides(props){
   hr_s_c = [
     'var(--main-color)' ,
+    props.c ,
+    props.c
+  ]
+  a_s_c = [
+    props.c_1 ,
     props.c ,
     props.c
   ]

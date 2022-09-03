@@ -3,7 +3,6 @@ import './About.css' ;
 import Footer from '../../components/footer/footer' ;
 import { observe } from '../../lib/observe/observe' ;
 import { Link } from 'react-router-dom' ;
-import Nav from '../../components/nav/nav' ;
 import Slides from '../../components/slides/slides' ;
 import Canvas_ from './components/canvas/f-pa' ;
 import Content from './components/content/content' ;
@@ -11,6 +10,7 @@ import Skills from './components/skills/skills' ;
 import { Wrap } from './components/title_wrapper/wrap' ;
 
 var con_ , wid , hei;
+
 
 function draw_svg(){
   con_ = document.querySelectorAll('#_svg_') ;
@@ -42,17 +42,16 @@ function draw_in(){
 
 
 function About(){
+  $(document).ready(()=>{window.scrollTo( 0 , 0 ) }) ;
   useEffect(()=>{
-    window.scrollTo(0,0) ;
     draw_svg()
     observe() ;
   },[]) ;
   return(
         <main className='_about' >
-        <Nav color='var(--background)' >
+        <Slides h='3' c='var(--bg)'>
           <Link to='/work'>Work</Link>
-        </Nav>
-        <Slides h='3' />
+        </Slides>
         <div id='center' >
           <Canvas_ />
           <div className="svg_ con_f">

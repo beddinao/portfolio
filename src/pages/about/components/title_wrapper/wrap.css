@@ -23,7 +23,7 @@
   opacity : 100%;
 }
 ._wrap > div > hr{
-  height : 1px ;
+  height : 2px ;
   background : var(--main-color) ;
   border : var(--main-color) ;
   width : 10em ;

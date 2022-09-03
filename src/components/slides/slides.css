@@ -5,10 +5,11 @@
   left : 0% ;
   z-index: 10 ;
   padding-left: 1em;
+  justify-content: flex-start ;
 }
 ._slides > div{
   position  : sticky ;
-  top :  calc(50% - 5em) ;
+  top :  calc(50% - 4em) ;
   width: fit-content ;
   height : 8em ;
   justify-content: space-between ;
@@ -17,9 +18,9 @@
 ._slides > div > hr {
   width : 3em ;
   height : 1px ;
-  border : 1px solid var(--main-color) ;
-  background :var(--main-color);
+  border : 1px solid transparent ;
   transition-duration: .6s ;
+  background : var(--main-color)
 }
 ._slides > div > hr:nth-child(1){
   width : 5em

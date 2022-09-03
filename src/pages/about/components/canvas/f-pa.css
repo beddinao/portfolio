@@ -31,31 +31,28 @@
 }
 /* */
 ._canvas > div:nth-child(2){
-  width : 50% ;
+  height : 40% ;
+  width : 45% ;
   align-self: center ;
-  border : 1px solid var(--main-color) ;
-  justify-content: flex-end ;
-  background: var(--background)
+  background : linear-gradient(to right bottom,rgb(5,5,5) 10%, rgba(255, 255, 255,.3) ) , var(--background);
 }
-._canvas > div:nth-child(2) > div {
-  height : 100%
+._canvas > div:nth-child(2) > h1:nth-child(1) {
+  color: var(--main-color);
+  font-family: cursive ;
+  font-style : italic ;
+  font-weight : 100 ;
+  letter-spacing: .2em ;
+  font-size: 6.5em ;
 }
-._canvas > div:nth-child(2) h1 {
-  font-size: 6em;
-  letter-spacing: 1em ;
-  color : var(--main-color) ;
-  font-family : serif
-}
-._canvas > div:nth-child(2) > div:nth-child(1) {
-  background:linear-gradient(to right bottom,rgb(5,5,5) 10%, rgba(255, 255, 255,.3) )
-}
-._canvas > div:nth-child(2) > div:nth-child(2) {
-  border : 1px solid var(--txt)
-}
-._canvas > div:nth-child(2) > div:nth-child(2) > h1 {
-  color: transparent;
+._canvas > div:nth-child(2) > h1:nth-child(2) {
+  font-size: 7.5em ;
+  letter-spacing: .3em ;
+  position: absolute ;
   background: linear-gradient(to left top,#000 30%, rgba(255, 255, 255,.3) 100%);
-  -webkit-background-clip : text ;
-  -moz-background-clip : text ;
-  background-clip: text
+  -webkit-background-clip: text ;
+  -moz-background-clip: text ;
+  background-clip: text ;
+  color : transparent ;
+  
+  
 }

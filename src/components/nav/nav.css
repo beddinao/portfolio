@@ -1,14 +1,19 @@
 #_nav{
   height : 10vh ;
-  width : 100% ;
+  width : 100vw ;
   position : fixed ;
   top:  0% ;
+  left : 0% ;
   align-items: flex-end ;
+  justify-content: center ;
   z-index: 10 ;
   padding-right: 3em ;
 }
 #_nav h1{
-  font-size: 3em ;
+  font-size: 2em ;
+}
+#_nav a{
+  color : var(--main-color)
 }
 #_nav a, #_nav a:hover{
   text-decoration: none ;

@@ -11,12 +11,12 @@ function Canvas_(props){
         </div>
       </div>
       <div>
-        <div>
+        
           <h1>Design</h1>
-        </div>
-        <div>
+        
+        
           <h1>Design</h1>
-        </div>
+        
       </div>
     </div>
   )

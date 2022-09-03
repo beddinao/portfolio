@@ -1,13 +1,16 @@
 import React , { useState , useEffect } from 'react' ;
 import { projects } from './projects' ;
+import Loads  from '../../../../components/load/Loads' ;
 import './content.css' ;
-
 
 function C_ontent(){
   let which_project = 0 ;
   const [ project , set_project ] = useState(projects[which_project]) ;
+  var slider_ = <div><div>{project.img_1}{project.img_2}{project.img_3}</div></div> ;
+  const [ div , set_div ] = useState(slider_)
 
   const check_key = (e) =>{
+    set_div(<Loads h='%'>{slider_}</Loads>)
     e = e || window.event ;
     if ( e.keyCode == '37' ) {
       which_project-- ;
@@ -20,6 +23,7 @@ function C_ontent(){
         which_project = 0 ;
       }
     }
+    
     set_project(projects[which_project]) ;
   }
 
@@ -39,13 +43,9 @@ function C_ontent(){
           {project.info}
         </div>
         <div data-inviewport='c_ri_di' >
-          <div>
-            <div id='to_animate' >
-              {project.img_1}
-              {project.img_2}
-              {project.img_3}
-            </div>
-          </div>
+          
+            {div}
+          
         </div>
       </div>
       <div>

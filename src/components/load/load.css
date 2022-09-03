@@ -1,5 +1,6 @@
 ._load{
-  background  : rgb(3,3,3)
+  background  : rgb(3,3,3) ;
+  width : 100% ;
 }
 ._load > img {
   border-radius: 50% ;

@@ -40,7 +40,6 @@
   height: 100% ;
   border : 1px solid var(--main-color) ;
   z-index: -1 ;
-  transform: translateY(1em);
 }
 [data-inviewport='w_sh_con']{
   transition-duration: 1.2s ;

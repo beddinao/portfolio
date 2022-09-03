@@ -14,7 +14,7 @@ function Slides(props){
   hr_s_c = [
     'var(--main-color)' ,
     props.c ,
-    props.c
+    props.c_1
   ]
   a_s_c = [
     props.c_1 ,

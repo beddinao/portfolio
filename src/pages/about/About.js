@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom' ;
 import Slides from '../../components/slides/slides' ;
 import Canvas_ from './components/canvas/f-pa' ;
 import Content from './components/content/content' ;
-import Skills from './components/skills/skills' ;
+//import Skills from './components/skills/skills' ;
 import { Wrap } from './components/title_wrapper/wrap' ;
 
 var con_ , wid , hei;
@@ -61,7 +61,7 @@ function About(){
         <Content />
         <Wrap />
         <div id='center' >
-          <Skills />
+          
           <div className="svg_ con_s">
             <svg id='_svg_' xmlns='http://wwww.w3.org/2000/svg' ></svg>
           </div>

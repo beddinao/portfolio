@@ -18,12 +18,12 @@ function Loads(props){
   function img_load () {
     for (let i = 0 ; i < images.length ; i++){
       let img = new Image() ;
+      img.src = images[i] ;
       img.addEventListener('load', is_load ,true ) ;
-      img.src = images[i]
     }
   }
   useEffect(()=>{
-    window.addEventListener('DOMContentLoaded' , img_load , true )
+    img_load()
   },[])
   return is_visible ? props.children : (
     <div id='center' >

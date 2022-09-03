@@ -4,8 +4,10 @@
   flex-direction : row ;
   align-items: center ;
   justify-content : space-between ;
-  border : 1px solid var(--main-color) ;
   transform : translateY(-5vh);
+  background-image: url('./img/augustine-wong-e1_2.jpg');
+  background-size : cover ;
+  background-position : center 
 }
 .intro > div > div:nth-child(1){
   align-self: flex-end ;

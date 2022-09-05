@@ -29,7 +29,7 @@
   width : 10em ;
 }
 ._wrap > div > h3 {
-  font-size: 1em ;
-  font-weight : thin ;
+  font-size: 2em ;
+  font-family: 'Fatface';
   color:  var(--bg)
 }

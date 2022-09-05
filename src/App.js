@@ -5,12 +5,13 @@ import Home from './pages/home/Home' ;
 import About from './pages/about/About' ;
 import Work from './pages/work/Work' ;
 import Loads from './components/load/Loads' ;
+import Loading from './components/load/Loads' ;
 
 function App() {
   return (
     <BrowserRouter >
       <Routes>
-        <Route index path="/" element={<Loads> <Home /> </Loads>} />
+        <Route index path="/" element={<Loads> <Home/> </Loads>} />
         <Route path="about" element={<About />} />
         <Route path="work" element={<Work />} />
       </Routes>

@@ -17,8 +17,9 @@
   border:  1px solid var(--bg) ;
 }
 .c_anvas > div > div > h1{
-  font-size: 4em ;
+  font-size: 5em ;
   color : var(--text) ;
+  font-family: 'El Messiri';
 }
 [data-inviewport='c_h1']{
   transition-duration : 1s ;

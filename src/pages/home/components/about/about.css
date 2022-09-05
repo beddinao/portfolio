@@ -18,11 +18,12 @@
   transform: translateX(10vw) ;
 }
 .about_ > div:nth-child(1) > h1{
+  font-family: 'Fatface';
+  font-size : 10em ;
   align-self: flex-end ;
   width : 40vw ;
   text-align: center ;
   color : var(--background) ;
-  /*color: #9B948E;*/
 }
 .about_ > div:nth-child(2) {
   position: absolute ;

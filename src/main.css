@@ -39,7 +39,20 @@ body::-webkit-scrollbar-thumb {
 /*@font-face {
   font-family:'El Messiri';
   src:url('./lib/fonts/ElMessiri-VariableFont_wght.ttf') format('truetype');
-}*/
+}
+@font-face{
+  font-family:'Fatface';
+  src:url('./lib/fonts/fatface/AbrilFatface-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family:'Red Rose';
+  src:url('./lib/fonts/rose/RedRose-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+  font-family:'Cormorant';
+  src:url('./lib/fonts/cormorant/Cormorant-Regular.ttf') format('truetype');
+}
+*/
 main{
   width : 100% ;
 }
@@ -59,6 +72,7 @@ h1{
 }
 p {
   font-size : 15px ;
+  font-family: 'Red Rose';
 }
 #center{
   height : 100vh ;

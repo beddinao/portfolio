@@ -17,6 +17,7 @@
 .intro h1{
   font-size: 3em ;
   color : transparent ;
+  font-family: 'El Messiri';
   -moz-text-stroke : 1px var(--main-color) ;
   -webkit-text-stroke: 1px var(--main-color);
 }
@@ -29,4 +30,12 @@
 .intro > div > div:nth-child(2){
   height : 100% ;
   width : 80% ;
+}
+.intro > div > div:nth-child(2) > svg {
+  height : 100% ;
+  width : 100%
+}
+.intro > div > div:nth-child(2) > svg > path{
+  stroke :url('#lin_') ;
+  stroke-width : 1 ;
 }

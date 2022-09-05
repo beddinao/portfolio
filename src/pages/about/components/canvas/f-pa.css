@@ -23,10 +23,12 @@
   color : var(--main-color) ;
 }
 ._canvas > div:nth-child(1) > div > h1 {
-  font-size: 2em
+  font-size: 3em ;
+  font-family: 'El Messiri';
 }
 ._canvas > div:nth-child(1) > div > h3{
-  font-size: 1em ;
+  font-size: 2em ;
+  font-family : 'Bilbo' ;
   font-style: italic 
 }
 /* */
@@ -38,7 +40,7 @@
 }
 ._canvas > div:nth-child(2) > h1:nth-child(1) {
   color: var(--main-color);
-  font-family: cursive ;
+  font-family: 'Bilbo' ;
   font-style : italic ;
   font-weight : 100 ;
   letter-spacing: .2em ;
@@ -53,6 +55,7 @@
   -moz-background-clip: text ;
   background-clip: text ;
   color : transparent ;
+  font-family: 'Fatface';
   
   
 }

@@ -6,8 +6,8 @@ function Canvas_(props){
     <div className='_canvas' >
       <div>
         <div>
-          <h1>deName fafa Makd</h1>
-          <h3>Web developer</h3>
+          <h1>Bilal Eddinaoui</h1>
+          <h3>Web Developer</h3>
         </div>
       </div>
       <div>

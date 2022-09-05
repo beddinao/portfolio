@@ -32,27 +32,23 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: var(--bg);
 }
-/*@font-face {
+@font-face {
   font-family: 'Bilbo';
-  src:url('./lib/fonts/BilboSwashCaps-Regular.ttf') format('truetype');
-}*/
-/*@font-face {
+  src:url('./lib/fonts/bilboswashcaps-regular.ttf') format('truetype');
+}
+@font-face {
   font-family:'El Messiri';
-  src:url('./lib/fonts/ElMessiri-VariableFont_wght.ttf') format('truetype');
+  src:url('./lib/fonts/elmessiri-variablefont_wght.ttf') format('truetype');
 }
 @font-face{
   font-family:'Fatface';
-  src:url('./lib/fonts/fatface/AbrilFatface-Regular.ttf') format('truetype');
+  src:url('./lib/fonts/abrilfatface-regular.ttf') format('truetype');
 }
 @font-face {
   font-family:'Red Rose';
-  src:url('./lib/fonts/rose/RedRose-VariableFont_wght.ttf') format('truetype');
+  src:url('./lib/fonts/redrose-variablefont_wght.ttf') format('truetype');
 }
-@font-face{
-  font-family:'Cormorant';
-  src:url('./lib/fonts/cormorant/Cormorant-Regular.ttf') format('truetype');
-}
-*/
+
 main{
   width : 100% ;
 }

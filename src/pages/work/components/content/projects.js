@@ -21,6 +21,8 @@ export const projects = [
       spectrum_screen_2 ,
       spectrum_screen_3,
     ] ,
+    animation : 'one_slider_' ,
+    ani_dur : 'var(--speed_1)' ,
     bar_wid : '20'
   } ,
   {
@@ -32,6 +34,8 @@ export const projects = [
       'sh_wave_screen_2' ,
       'sh_wave_screen_3',
     ] ,
+    animation : 'one_slider_' ,
+    ani_dur : 'var(--speed_1)' ,
     bar_wid : '40' ,
   } ,
   {
@@ -43,6 +47,8 @@ export const projects = [
       tim_screen ,
       tim_screen
     ] ,
+    animation : 'sec_slider_' ,
+    ani_dur : 'var(--speed_2)' ,
     bar_wid : '60' ,
   } ,
   {
@@ -54,6 +60,8 @@ export const projects = [
       project_22 ,
       project_23
     ] ,
+    animation : 'thir_slider_' ,
+    ani_dur : 'var(--speed_2)' ,
     bar_wid : '80' 
   } ,
   {
@@ -65,6 +73,8 @@ export const projects = [
       project_12 ,
       project_13
     ] ,
+    animation : 'four_slider_' ,
+    ani_dur : 'var(--speed_1)' ,
     bar_wid : '100' ,
   }
 ]

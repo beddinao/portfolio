@@ -1,83 +1,9 @@
 :root{
-  --speed_1 : 25s
+  --speed_1 : 25s ;
+  --speed_2 : 30s
 }
 /* */
-@keyframes one_slider_0{
-  30%{
-    transform : translateX(0%) ;
-  }
-  
-  33.33%{
-    transform : translateX(100%) ;
-  }
-  69%{
-    transform : translateX(100%) ;
-  }
-  
-  80%{
-    transform : translate(0%) ;
-    
-  }
-}
-@keyframes one_slider_1{
-  33%{
-    transform : translateX(0%)
-  }
-  38%{
-    transform : translateX(100%)
-  }
-  70%{
-    transform : translateX(100%)
-  }
-  73.33%{
-    transform : translateX(-100%)
-  }
-  96.66%{
-    transform : translateX(-100%)
-  }
-  100%{
-    transform : translateX(0%)
-  }
-}
-@keyframes one_slider_2{
-  66.66%{
-    transform : translateX(0%)
-  }
-  
-  70%{
-    transform : translateX(-100%)
-  }
-  98%{
-    transform : translateX(-100%)
-  }
-  100%{
-    transform : translateX(0%)
-  }
-}
-@keyframes slid_{
-  0%{
-    transform : translateY(-83%)
-  }
-  100%{
-    transform : translateY(0%)
-  }
-}
-@keyframes slid_i{
-  0%{
-    transform : translateY(-66.66%)
-  }
-  100%{
-    transform : translateY(0%)
-  }
-}
-@keyframes slid_ii{
-  0%{
-    transform : translateY(-33.33%)
-  }
-  100%{
-    transform : translateY(0%)
-  }
-}
+
 /* */
 .c_ontent{
   justify-content: flex-end ;
@@ -153,18 +79,17 @@
   width : 37em ;
   height : 100% ;
 }
+/* */
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(3) > img{
   min-height : 600% ;
-  animation : slid_ 8s infinite alternate
 }
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(4) > img{
   min-height : 300% ;
-  animation : slid_i 5s infinite alternate
 }
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(5) > img{
   min-height : 150% ;
-  animation : slid_ii 5s infinite alternate
 }
+/* */
 [data-inviewport='c_ri_di'].is-in ,
 [data-inviewport='c_le_di'].is-in {
   opacity : 100% ;

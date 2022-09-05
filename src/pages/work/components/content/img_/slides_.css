@@ -1,0 +1,215 @@
+@keyframes one_slider_0{
+  30%{
+    transform : translateX(0%) ;
+  }
+  
+  33.33%{
+    transform : translateX(100%) ;
+  }
+  69%{
+    transform : translateX(100%) ;
+  }
+  
+  80%{
+    transform : translate(0%) ;
+    
+  }
+}
+@keyframes one_slider_1{
+  33%{
+    transform : translateX(0%)
+  }
+  38%{
+    transform : translateX(100%)
+  }
+  70%{
+    transform : translateX(100%)
+  }
+  73.33%{
+    transform : translateX(-100%)
+  }
+  96.66%{
+    transform : translateX(-100%)
+  }
+  100%{
+    transform : translateX(0%)
+  }
+}
+@keyframes one_slider_2{
+  66.66%{
+    transform : translateX(0%)
+  }
+  
+  70%{
+    transform : translateX(-100%)
+  }
+  98%{
+    transform : translateX(-100%)
+  }
+  100%{
+    transform : translateX(0%)
+  }
+}
+/* */
+@keyframes sec_slider_0{
+  30%{
+    transform: translateX(0%);
+  }
+  33.33%{
+    transform : translateX(100%) translateY(0%);
+  }
+  69%{
+    transform : translateX(100%) translateY(-83%) ;
+  }
+  80%{
+    transform : translate(0%) ;
+    
+  }
+}
+@keyframes sec_slider_1{
+  0%{
+    transform : translateY(0%) ;
+  }
+  33%{
+    transform : translateX(0%) translateY(-83%)
+  }
+  38%{
+    transform : translateX(100%)
+  }
+  70%{
+    transform : translateX(100%)
+  }
+  73.33%{
+    transform : translateX(-100%)
+  }
+  96.66%{
+    transform : translateX(-100%)
+  }
+  100%{
+    transform : translateX(0%)
+  }
+
+}
+@keyframes sec_slider_2{
+  66.66%{
+    transform : translateX(0%)
+  }
+  
+  70%{
+    transform : translateX(-100%) translateY(0%)
+  }
+  98%{
+    transform : translateX(-100%) translateY(-38%)
+  }
+  100%{
+    transform : translateX(0%) translateY(0%)
+  }
+}
+/* */
+@keyframes thir_slider_0{
+  30%{
+    transform: translateX(0%);
+  }
+  33.33%{
+    transform : translateX(100%) translateY(0%);
+  }
+  69%{
+    transform : translateX(100%) translateY(-66.66%) ;
+  }
+  80%{
+    transform : translate(0%) ;
+    
+  }
+}
+@keyframes thir_slider_1{
+  0%{
+    transform : translateY(0%) ;
+  }
+  33%{
+    transform : translateX(0%) translateY(-66.66%)
+  }
+  38%{
+    transform : translateX(100%)
+  }
+  70%{
+    transform : translateX(100%)
+  }
+  73.33%{
+    transform : translateX(-100%)
+  }
+  96.66%{
+    transform : translateX(-100%)
+  }
+  100%{
+    transform : translateX(0%)
+  }
+}
+@keyframes thir_slider_2{
+  66.66%{
+    transform : translateX(0%)
+  }
+  
+  70%{
+    transform : translateX(-100%) translateY(0%)
+  }
+  98%{
+    transform : translateX(-100%) translateY(-66.66%)
+  }
+  100%{
+    transform : translateX(0%) translateY(0%)
+  }
+}
+/* */
+@keyframes four_slider_0{
+  30%{
+    transform: translateX(0%);
+  }
+  33.33%{
+    transform : translateX(100%) translateY(0%);
+  }
+  69%{
+    transform : translateX(100%) translateY(-33%) ;
+  }
+  80%{
+    transform : translate(0%) ;
+    
+  }
+}
+@keyframes four_slider_1{
+  0%{
+    transform : translateY(0%) ;
+  }
+  33%{
+    transform : translateX(0%) translateY(-33%)
+  }
+  38%{
+    transform : translateX(100%)
+  }
+  70%{
+    transform : translateX(100%)
+  }
+  73.33%{
+    transform : translateX(-100%)
+  }
+  96.66%{
+    transform : translateX(-100%)
+  }
+  100%{
+    transform : translateX(0%)
+  }
+}
+@keyframes four_slider_2{
+  66.66%{
+    transform : translateX(0%)
+  }
+  
+  70%{
+    transform : translateX(-100%) translateY(0%)
+  }
+  98%{
+    transform : translateX(-100%) translateY(-33%)
+  }
+  100%{
+    transform : translateX(0%) translateY(0%)
+  }
+}

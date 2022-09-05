@@ -11,6 +11,7 @@ function draw_img(){
     for(let j = 0 ; j < projects[i].img.length ; j++ ){
       let i_mg = new Image() ;
       i_mg.src = projects[i].img[j] ;
+      $(i_mg).css('animation' , `one_slider_${j} var(--speed_1) ease infinite`);
       el_e.appendChild(i_mg)
     }
     temp_div.appendChild(el_e)

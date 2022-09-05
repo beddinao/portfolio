@@ -13,53 +13,58 @@ import project_13 from './img_/project13.png' ;
 
 export const projects = [
   {
-    id : 1 ,
     name : 'Sspectrum' ,
     info : <p> is a high resolution<span className='for-st' > audio spectrum</span> and full featured audio player, with modern styles and custom features. based from the audioMotion.js analyzer. </p> ,
     link : 'https://Sspectrum.netlify.app' ,
-    img_1 : <img src={spectrum_screen_1}/> ,
-    img_2 : <img src={spectrum_screen_2}/> ,
-    img_3 : <img src={spectrum_screen_3}/> ,
+    img : [
+      spectrum_screen_1,
+      spectrum_screen_2 ,
+      spectrum_screen_3,
+    ] ,
     bar_wid : '20'
   } ,
   {
-    id : 2 ,
-    name : 'sh-wave' ,
-    info : <p> a sh-wave in<span className='for-st' > SPACE</span> . </p> ,
+    name : 'Sh-wave' ,
+    info : <p> a sh-wave in<span className='for-st' > SPACE </span> . </p> ,
     link : 'https://sh-wave.netlify.app' ,
-    img_1 : <img src='{sh_wave_screen_1}'/> ,
-    img_2 : <img src='{sh_wave_screen_2}'/> ,
-    img_3 : <img src='{sh_wave_screen_3}'/> ,
+    img : [
+      'sh_wave_screen_1',
+      'sh_wave_screen_2' ,
+      'sh_wave_screen_3',
+    ] ,
     bar_wid : '40' ,
   } ,
   {
-    id : 3 ,
     name : 'Twamigo Media' ,
     info : <p> Agency that specialise in all e-marketing related services. </p> ,
     link : '#' ,
-    img_1 : <img src={tim_screen} id='slid_'/> ,
-    img_2 : <img src={tim_screen} id='slid_'/> ,
-    img_3 : <img src={tim_screen} id='slid_'/> ,
+    img : [
+      tim_screen ,
+      tim_screen ,
+      tim_screen
+    ] ,
     bar_wid : '60' ,
   } ,
   {
-    id : 4 ,
     name : 'Mtravelers' ,
     info : <p> Whether you are considering a trip to <span className='for-st'>morocco </span>or just interested in trying out the culture, you will find everything you need to know here. </p> ,
     link : '#' ,
-    img_1 : <img src={project_21} id='slid_i'/> ,
-    img_2 : <img src={project_22} id='slid_i'/> ,
-    img_3 : <img src={project_23} id='slid_i'/> ,
+    img : [
+      project_21 ,
+      project_22 ,
+      project_23
+    ] ,
     bar_wid : '80' 
   } ,
   {
-    id : 4 ,
     name : 'Linear' ,
     info : <p>This site is dedicated to discussing the most<span className='for-st' > interesting</span> dark issues of our time. </p> ,
     link : '#' ,
-    img_1 : <img src={project_11} id='slid_ii'/> ,
-    img_2 : <img src={project_12} id='slid_ii'/> ,
-    img_3 : <img src={project_13} id='slid_ii'/> ,
+    img : [
+      project_11 ,
+      project_12 ,
+      project_13
+    ] ,
     bar_wid : '100' ,
   }
 ]

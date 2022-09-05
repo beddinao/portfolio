@@ -1,3 +1,84 @@
+:root{
+  --speed_1 : 25s
+}
+/* */
+@keyframes one_slider_1{
+  30%{
+    transform : translateX(0%) ;
+  }
+  
+  33.33%{
+    transform : translateX(100%) ;
+  }
+  69%{
+    transform : translateX(100%) ;
+  }
+  
+  80%{
+    transform : translate(0%) ;
+    
+  }
+}
+@keyframes one_slider_2{
+  33%{
+    transform : translateX(0%)
+  }
+  38%{
+    transform : translateX(100%)
+  }
+  70%{
+    transform : translateX(100%)
+  }
+  73.33%{
+    transform : translateX(-100%)
+  }
+  96.66%{
+    transform : translateX(-100%)
+  }
+  100%{
+    transform : translateX(0%)
+  }
+}
+@keyframes one_slider_3{
+  66.66%{
+    transform : translateX(0%)
+  }
+  
+  70%{
+    transform : translateX(-100%)
+  }
+  98%{
+    transform : translateX(-100%)
+  }
+  100%{
+    transform : translateX(0%)
+  }
+}
+@keyframes slid_{
+  0%{
+    transform : translateY(-83%)
+  }
+  100%{
+    transform : translateY(0%)
+  }
+}
+@keyframes slid_i{
+  0%{
+    transform : translateY(-66.66%)
+  }
+  100%{
+    transform : translateY(0%)
+  }
+}
+@keyframes slid_ii{
+  0%{
+    transform : translateY(-33.33%)
+  }
+  100%{
+    transform : translateY(0%)
+  }
+}
+/* */
 .c_ontent{
   justify-content: flex-end ;
 }
@@ -45,121 +126,51 @@
 }
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div {
   height : 100% ;
-  overflow : hidden 
+  overflow : hidden ;
+  justify-content: flex-start ;
 }
 [data-inviewport='c_ri_di']{
   transform : translateX(-150%) ;
 }
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div >  div {
   width: fit-content;
-  height : 100% ;
+  height : fit-content ;
+  justify-content: flex-start ;
+}
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div >  div > div {
+  width : fit-content ;
+  height : 40vh ;
   flex-direction: row ;
   align-items: flex-start ;
+  overflow : hidden ;
 }
-
 [data-inviewport='c_ri_di'] ,
 [data-inviewport='c_le_di']{
   transition-duration: 1.5s ;
   opacity : 00% ;
 }
-.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > img {
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div > img {
   width : 37em ;
   height : 100% ;
 }
-@keyframes one_slider_1{
-  30%{
-    transform : translateX(0%) ;
-  }
-  
-  33.33%{
-    transform : translateX(100%) ;
-  }
-  69%{
-    transform : translateX(100%) ;
-  }
-  
-  80%{
-    transform : translate(0%) ;
-    
-  }
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div > img:nth-child(1){
+  animation : one_slider_1 var(--speed_1) ease infinite ;
 }
-.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > img:nth-child(1){
-  animation : one_slider_1 25s ease infinite ;
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div > img:nth-child(2){
+  animation : one_slider_2 var(--speed_1) ease infinite ;
 }
-@keyframes one_slider_2{
-  33%{
-    transform : translateX(0%)
-  }
-  38%{
-    transform : translateX(100%)
-  }
-  70%{
-    transform : translateX(100%)
-  }
-  73.33%{
-    transform : translateX(-100%)
-  }
-  96.66%{
-    transform : translateX(-100%)
-  }
-  100%{
-    transform : translateX(0%)
-  }
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div > img:nth-child(3){
+  animation : one_slider_3 var(--speed_1) ease infinite ;
 }
-.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > img:nth-child(2){
-  animation : one_slider_2 25s ease infinite ;
-}
-@keyframes one_slider_3{
-  66.66%{
-    transform : translateX(0%)
-  }
-  
-  70%{
-    transform : translateX(-100%)
-  }
-  98%{
-    transform : translateX(-100%)
-  }
-  100%{
-    transform : translateX(0%)
-  }
-}
-.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > img:nth-child(3){
-  animation : one_slider_3 25s ease infinite ;
-}
-@keyframes slid_{
-  0%{
-    transform : translateY(-83%)
-  }
-  100%{
-    transform : translateY(0%)
-  }
-}
-@keyframes slid_i{
-  0%{
-    transform : translateY(-66.66%)
-  }
-  100%{
-    transform : translateY(0%)
-  }
-}
-@keyframes slid_ii{
-  0%{
-    transform : translateY(-33.33%)
-  }
-  100%{
-    transform : translateY(0%)
-  }
-}
-#slid_{
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(3) > img{
   min-height : 600% ;
   animation : slid_ 8s infinite alternate
 }
-#slid_i{
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(4) > img{
   min-height : 300% ;
   animation : slid_i 5s infinite alternate
 }
-#slid_ii{
+.c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(5) > img{
   min-height : 150% ;
   animation : slid_ii 5s infinite alternate
 }

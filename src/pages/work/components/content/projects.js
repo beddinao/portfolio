@@ -17,9 +17,9 @@ export const projects = [
     info : <p> is a high resolution<span className='for-st' > audio spectrum</span> and full featured audio player, with modern styles and custom features. based from the audioMotion.js analyzer. </p> ,
     link : 'https://Sspectrum.netlify.app' ,
     img : [
-      spectrum_screen_1,
       spectrum_screen_2 ,
-      spectrum_screen_3,
+      spectrum_screen_1 ,
+      spectrum_screen_3 ,
     ] ,
     animation : 'one_slider_' ,
     ani_dur : 'var(--speed_1)' ,

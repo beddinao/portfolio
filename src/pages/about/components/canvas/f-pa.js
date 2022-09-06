@@ -7,7 +7,7 @@ function Canvas_(props){
       <div>
         <div>
           <h1>Bilal Eddinaoui</h1>
-          <h3>Web Developer</h3>
+          <h3>Web Designer</h3>
         </div>
       </div>
       <div>

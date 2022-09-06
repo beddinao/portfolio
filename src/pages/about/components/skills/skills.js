@@ -53,11 +53,11 @@ function Skills(){
       <div>
         <Skill p='HTML_CSS' per='90' src={s_i_arr[0]} />
         <Skill p='Javascript' per='60'src={s_i_arr[1]} />
-        <Skill p='NodeJs' per='60' src={s_i_arr[2]} />
-        <Skill p='MongoDB' per='70' src={s_i_arr[3]} />
-        <Skill p='React' per='90' src={s_i_arr[4]} />
-        <Skill p='Angular' per='40' src={s_i_arr[5]} />
-        <Skill p='Sass' per='60' src={s_i_arr[6]} />
+        <Skill p='React' per='90' src={s_i_arr[6]} />
+        <Skill p='Sass' per='90' src={s_i_arr[2]} />
+        <Skill p='Pug' per='90' src={s_i_arr[3]} />
+        <Skill p='Figma' per='40' src={s_i_arr[5]} />
+        <Skill p='Photoshop' per='60' src={s_i_arr[4]} />
       </div>
       <div>
         

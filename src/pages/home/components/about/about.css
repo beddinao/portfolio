@@ -2,6 +2,11 @@
   width : 70vw ;
   align-items: flex-start ;
 }
+@media only screen and (max-width : 900px){
+  .about_ > div:nth-child(1) {
+    width : 90vw
+  }
+}
 .about_ > div:nth-child(1) > div {
   height: 30vh ;
   justify-content: space-around ;
@@ -27,6 +32,12 @@
   text-align: center ;
   color : var(--background) ;
 }
+@media only screen and (max-width : 900px){
+  .about_ > div:nth-child(1) > h1 {
+    font-size : 5em ;
+    align-self: center ;
+  }
+}
 .about_ > div:nth-child(2) {
   position: absolute ;
   height : 40vw ;
@@ -40,4 +51,13 @@
 }
 [data-inviewport="a_des"].is-in{
   transform : translateX(15vw) ; 
+}
+@media only screen and (max-width : 900px){
+  .about_ > div:nth-child(2) {
+    height : 80vw ;
+    width : 60vw ;
+  }
+  [data-inviewport='a_des'].is-in{
+    transform : translateX(10vw)
+  }
 }

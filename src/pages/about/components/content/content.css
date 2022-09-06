@@ -2,9 +2,19 @@
   width : 80vw ;
   align-items: flex-end ;
 }
+@media only screen and (max-width : 900px) {
+  ._cont > div {
+    width : 90vw ;
+  }
+}
 ._cont > div > div {
   width : 50% ;
   align-items: flex-start ;
+}
+@media only screen and (max-width) {
+  ._cont > div > div {
+    width : 60% 
+  }
 }
 [data-inviewport="_cont"]{
   transition : 1s ;
@@ -18,4 +28,10 @@
 ._cont > div > div > p{
   max-width : 30vw ;
   color : var(--bg)
+}
+@media only screen and (max-width : 900px) {
+  ._cont > div > div > p {
+    max-width : none ;
+    line-height: 1.5em;
+  }
 }

@@ -9,6 +9,11 @@
   border : 1px solid var(--main-color) ;
   border-top : none ;
 }
+@media only screen and (max-width : 900px){
+  .c_anvas > div {
+    width : 80vw ;
+  }
+}
 .c_anvas > div > div {
   height : 100% ;
   background : url('./img/tevei-renvoye-e2.jpg') ;

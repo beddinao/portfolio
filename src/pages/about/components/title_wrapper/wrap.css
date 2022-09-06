@@ -28,6 +28,11 @@
   border : var(--main-color) ;
   width : 10em ;
 }
+@media only screen and (mac-width : 900px) {
+  ._wrap > div > hr {
+    width : 5em ;
+  }
+}
 ._wrap > div > h3 {
   font-size: 1.5em ;
   font-family: 'Fatface';

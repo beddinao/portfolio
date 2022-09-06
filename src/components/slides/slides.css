@@ -22,6 +22,11 @@
   transition-duration: .6s ;
   background : var(--main-color)
 }
+@media only screen and (max-width : 900px) {
+  ._slides > div > hr {
+    display : none ;
+  }
+}
 ._slides > div > hr:nth-child(1){
   width : 5em
 }

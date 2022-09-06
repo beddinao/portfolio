@@ -13,6 +13,12 @@
   width : 60vw ;
   position: absolute ;
 }
+@media only screen and (max-width : 900px) {
+  .svg_ {
+    height : 70vh ;
+    width : 70vw ;
+  }
+}
 .con_f{
   align-self: flex-start ;
   left : 0% ;

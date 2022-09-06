@@ -9,6 +9,14 @@
 ._canvas > div{
   height : 50%
 }
+@media  only screen and (max-width : 900px){
+  ._canvas {
+    flex-direction : column ;
+    width : 90% ;
+    height : 60% ;
+    justify-content: flex-start;
+  }
+}
 ._canvas > div:nth-child(1){
   width  : fit-content ;
   justify-content: flex-start
@@ -39,6 +47,14 @@
   align-self: center ;
   background : linear-gradient(to right bottom,rgb(5,5,5) 10%, rgba(255, 255, 255,.3) ) , var(--background);
 }
+@media only screen and (max-width : 900px){
+  ._canvas > div:nth-child(2) {
+    height : 100% ;
+    width : 60vw ;
+    border-radius : 2em 2em 0 2em ;
+    align-self: flex-end ;
+  }
+}
 ._canvas > div:nth-child(2) > h1:nth-child(1) {
   color: var(--main-color);
   font-family: 'Bilbo' ;
@@ -47,6 +63,12 @@
   letter-spacing: .5em ;
   font-size: 7.5em ;
   transform : translateX(.25em) ;
+}
+@media only screen and (max-width : 900px) {
+  ._canvas > div:nth-child(2) > h1:nth-child(1) {
+    transform : translateX(.0em) ;
+    letter-spacing: .1em ;
+  }
 }
 ._canvas > div:nth-child(2) > h1:nth-child(2) {
   font-size: 7.5em ;
@@ -59,6 +81,9 @@
   background-clip: text ;
   color : transparent ;
   font-family: 'Fatface';
-  
-  
+}
+@media only screen and (max-width : 900px) {
+  ._canvas > div:nth-child(2) > h1:nth-child(2) {
+    display : none
+  }
 }

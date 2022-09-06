@@ -47,6 +47,12 @@
   width : 37em ;
   height : 40vh ;
 }
+@media only screen and (max-width : 900px ){
+  .c_ontent > div:nth-child(1) > div:nth-child(2) {
+    width : 80vw ;
+    height : 30vh ;
+  }
+}
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div {
   height : 100% ;
   overflow : hidden ;
@@ -54,6 +60,12 @@
 }
 [data-inviewport='c_ri_di']{
   transform : translateX(-150%) ;
+}
+@media only screen and (max-width : 900px ){
+  [data-inviewport='c_ri_di'],
+  [data-inviewport='c_le_di']{
+    transform : translateX(0%) ;
+  }
 }
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div >  div {
   width: fit-content;
@@ -67,6 +79,11 @@
   align-items: flex-start ;
   overflow : hidden ;
 }
+@media only screen and (max-width : 900px ){
+  .c_ontent > div:nth-child(1) > div:nth-child(2) > div >  div > div  {
+    height : 30vh ;
+  }
+}
 [data-inviewport='c_ri_di'] ,
 [data-inviewport='c_le_di']{
   transition-duration: 1.5s ;
@@ -75,6 +92,11 @@
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div > img {
   width : 37em ;
   height : 100% ;
+}
+@media only screen and (max-width : 900px ){
+  .c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div > img {
+    width : 80vw ;
+  }
 }
 /* */
 .c_ontent > div:nth-child(1) > div:nth-child(2) > div > div > div:nth-child(3) > img{
@@ -100,6 +122,11 @@
   border : 1px solid var(--main-color) ;
   transform : translate(1em,1em) ;
   z-index: -1 ;
+}
+@media only screen and (max-width : 900px ){
+  .c_ontent > div:nth-child(1) > div:nth-child(2)::after {
+    width : 80vw ;
+  }
 }
 .c_ontent > div:nth-child(2) {
   height : 20% ;

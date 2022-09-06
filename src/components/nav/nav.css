@@ -15,7 +15,7 @@
 #_nav a{
   color : var(--main-color) ;
   transition-duration: .3s ;
-  font-size: .9em ;
+  font-size: 1.1em ;
   font-weight : 100 ;
 }
 #_nav a, #_nav a:hover{

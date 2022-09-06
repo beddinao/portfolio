@@ -41,23 +41,23 @@ function Intro (){
     <div id='center' className='intro' >
       <div>
         <div>
-          <h1>intro</h1>
-          <h2>to</h2>
+          <h1>BILAL</h1>
+          <h2>Web Developer</h2>
         </div>
         <div>
           <svg id='_i_svg_' xmlns='www.w3.org/2000/svg'>
             <linearGradient id='lin_0' >
-              <stop stopColor='rgba(10,10,10,0.5)' offset='10%' />
-              <stop stopColor='#D4A373' offset='80%' />
+              <stop stopColor='#D4A373' offset='10%' />
+              <stop stopColor='#cebba9' offset='80%' />
             </linearGradient>
             <linearGradient id='lin_' >
-              <stop stopColor='#D4A373' offset='50%' />
-              <stop stopColor='rgba(10,10,10,0.5)' offset='90%' />
+              <stop stopColor='#cebba9' offset='50%' />
+              <stop stopColor='#D4A373' offset='90%' />
             </linearGradient>
             <linearGradient id='lin_1' >
-              <stop stopColor='rgba(10,10,10,0.5)' offset='10%' />
-              <stop stopColor='#D4A373' offset='50%' />
-              <stop stopColor='rgba(10,10,10,0.5)' offset='90%' />
+              <stop stopColor='#D4A373' offset='10%' />
+              <stop stopColor='#cebba9' offset='50%' />
+              <stop stopColor='#D4A373' offset='90%' />
             </linearGradient>
           </svg>
         </div>

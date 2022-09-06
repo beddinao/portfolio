@@ -1,5 +1,5 @@
 #_btn{
-  height : 2em ;
+  height : 2.1em ;
   padding : 0 2em ;
   border : 1px solid var(--main-color) ;
   background : transparent ;
@@ -11,10 +11,17 @@
   text-decoration: none;
   height : 100% ;
   width: 100% ;
+  font-family: Monospace;
+  font-size : 1em ;
+  letter-spacing: .1em;
+  outline: none ;
 }
 #_btn:hover{
-  background : rgb(10,10,10) ;
-  cursor : pointer
+  background : rgba(255,255,255,.1);
+  cursor : pointer ;
+}
+#_btn:focus{
+  outline: none ;
 }
 #_btn a:hover{
   text-decoration: none;

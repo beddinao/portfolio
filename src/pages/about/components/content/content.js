@@ -7,7 +7,7 @@ function Content(){
     <div id='center' className='_cont'>
       <div>
         <div  data-inviewport="_cont">
-          <p>Recordings launch in a new tab. All data is stored locally, but you can choose to upload it for sharing.</p>
+          <p>As a Web Designer, I translate high-level requirements into interactions flows(UX/UI) and design attractive, clean, and efficient websites.</p>
         </div>
       </div>
     </div>

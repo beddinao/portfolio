@@ -29,7 +29,9 @@
   width : 10em ;
 }
 ._wrap > div > h3 {
-  font-size: 2em ;
+  font-size: 1.5em ;
   font-family: 'Fatface';
+  font-weight : 100 ;
+  letter-spacing : 0.15em ;
   color:  var(--bg)
 }

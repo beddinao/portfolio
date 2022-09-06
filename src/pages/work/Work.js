@@ -18,7 +18,7 @@ function Work(){
       <main>
         <C_anvas />
         <Slides h='2' c='var(--text)' c_1='var(--main-color)' >
-          <Link to='/about'>About</Link>
+          <Link to='/about'>About Me.</Link>
         </Slides>
         <C_ontent />
         <Footer />

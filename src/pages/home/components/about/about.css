@@ -22,6 +22,8 @@
   font-size : 10em ;
   align-self: flex-end ;
   width : 40vw ;
+  font-weight : 100 ;
+  letter-spacing: .1em ;
   text-align: center ;
   color : var(--background) ;
 }

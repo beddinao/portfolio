@@ -21,13 +21,14 @@
 ._canvas > div:nth-child(1) > div > h1 ,
 ._canvas > div:nth-child(1) > div > h3 {
   color : var(--main-color) ;
+  letter-spacing : .1em
 }
 ._canvas > div:nth-child(1) > div > h1 {
-  font-size: 3em ;
+  font-size: 2.5em ;
   font-family: 'El Messiri';
 }
 ._canvas > div:nth-child(1) > div > h3{
-  font-size: 2em ;
+  font-size: 1.5em ;
   font-family : 'Bilbo' ;
   font-style: italic 
 }
@@ -43,12 +44,14 @@
   font-family: 'Bilbo' ;
   font-style : italic ;
   font-weight : 100 ;
-  letter-spacing: .2em ;
-  font-size: 6.5em ;
+  letter-spacing: .5em ;
+  font-size: 7.5em ;
+  transform : translateX(.25em) ;
 }
 ._canvas > div:nth-child(2) > h1:nth-child(2) {
   font-size: 7.5em ;
-  letter-spacing: .3em ;
+  letter-spacing: .4em ;
+  transform : translateX(.2em) ;
   position: absolute ;
   background: linear-gradient(to left top,#000 30%, rgba(255, 255, 255,.3) 100%);
   -webkit-background-clip: text ;

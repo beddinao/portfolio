@@ -25,6 +25,7 @@
   font-size: 2em ;
   font-family: 'Bilbo';
   font-style: italic ;
+  font-weight : 100 ;
   color : var(--main-color) ;
   transform : translateY(-50%)
 }

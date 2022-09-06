@@ -6,7 +6,7 @@ import icon_3 from './img/sass.png' ;
 import icon_4 from './img/pug.png' ;
 import icon_5 from './img/phtoshop.png' ;
 import icon_6 from './img/figma.png' ;
-import icon_7 from './img/wordpress.png' ;
+import icon_7 from './img/react.png' ;
 
 
 export const s_i_arr = [

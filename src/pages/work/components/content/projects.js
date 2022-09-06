@@ -33,7 +33,7 @@ export const projects = [
     info : <p> a sh-wave in<span className='for-st' > SPACE </span> . </p> ,
     link : 'https://sh-wave.netlify.app' ,
     img : [
-      sh_wave_screen_1
+      sh_wave_screen_1 ,
       sh_wave_screen_2 ,
       sh_wave_screen_3,
     ] ,

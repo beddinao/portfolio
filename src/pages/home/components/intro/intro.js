@@ -42,7 +42,7 @@ function Intro (){
       <div>
         <div>
           <h1>BILAL</h1>
-          <h2>Web Developer</h2>
+          <h2>Web Designer</h2>
         </div>
         <div>
           <svg id='_i_svg_' xmlns='www.w3.org/2000/svg'>

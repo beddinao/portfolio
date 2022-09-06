@@ -10,6 +10,9 @@ import spectrum_screen_3 from './img_/_spectrum/ss-screen3.png' ;
 import project_11 from './img_/project11.png' ;
 import project_12 from './img_/project12.png' ;
 import project_13 from './img_/project13.png' ;
+import sh_wave_screen_1 from './img_/_sh_wave/sh-wave_screen_1.png';
+import sh_wave_screen_2 from './img_/_sh_wave/sh-wave_screen_2.png';
+import sh_wave_screen_3 from './img_/_sh_wave/sh-wave_screen_3.png';
 
 export const projects = [
   {
@@ -30,9 +33,9 @@ export const projects = [
     info : <p> a sh-wave in<span className='for-st' > SPACE </span> . </p> ,
     link : 'https://sh-wave.netlify.app' ,
     img : [
-      'sh_wave_screen_1',
-      'sh_wave_screen_2' ,
-      'sh_wave_screen_3',
+      sh_wave_screen_1
+      sh_wave_screen_2 ,
+      sh_wave_screen_3,
     ] ,
     animation : 'one_slider_' ,
     ani_dur : 'var(--speed_1)' ,

@@ -12,8 +12,6 @@
 }
 html{
   scroll-behavior: smooth ;
-  scroll-snap-type: y mandatory ;
-  scroll-snap-points-y: repeat(100%) ;
   scrollbar-width: 10px ;
   scrollbar-color: var(--bg) ;
   transition-duration: 1s ;
@@ -72,7 +70,6 @@ p {
 }
 #center{
   height : 100vh ;
-  scroll-snap-align: center ;
 }
 .for-st{
   color : var(--main-color) ;

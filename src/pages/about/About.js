@@ -2,6 +2,7 @@ import React, {useEffect} from 'react' ;
 import './About.css' ;
 import Footer from '../../components/footer/footer' ;
 import { observe } from '../../lib/observe/observe' ;
+import set_scroll_snapping , { dis_fun } from '../../lib/scroll-snap'; 
 import { Link } from 'react-router-dom' ;
 import Slides from '../../components/slides/slides' ;
 import Canvas_ from './components/canvas/f-pa' ;
@@ -51,7 +52,11 @@ function About (){
 
   useEffect(()=>{
     draw_svg();
-    observe()
+    observe() ;
+    set_scroll_snapping( document.body.parentNode , document.querySelectorAll("#center") )
+    return () => {
+      dis_fun(document.body.parentNode)
+    }
   },[]) ;
 
   return (

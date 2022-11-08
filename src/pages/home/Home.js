@@ -8,9 +8,11 @@ import Footer from '../../components/footer/footer' ;
 import { observe } from '../../lib/observe/observe' ;
 
 
-
 function Home(){
-  useEffect(observe,[])
+  useEffect(()=>{
+    observe();
+    document.title = 'edd Portfolio' ;
+  },[])
   return(
 
         <main>

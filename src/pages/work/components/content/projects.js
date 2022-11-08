@@ -1,5 +1,9 @@
 import React from 'react' ;
 
+
+import g_simu_1 from './img_/_gravity/g_simulation_1.png' ;
+import g_simu_2 from './img_/_gravity/g_simulation_2.png' ;
+import g_simu_3 from './img_/_gravity/g_simulation_3.png' ;
 import project_22 from './img_/project22.jpg' ;
 import project_23 from './img_/project23.jpg' ;
 import project_21 from './img_/project21.jpg' ;
@@ -16,6 +20,19 @@ import sh_wave_screen_3 from './img_/_sh-wave/sh-wave_screen_3.png';
 
 export const projects = [
   {
+    name : 'G. Simulation' ,
+    info : <p> is a simple 2D<span className='for-st' > Gravity Simulator</span> . </p> ,
+    link : 'https://g-simulator.netlify.app' ,
+    img : [
+      g_simu_2 ,
+      g_simu_1 ,
+      g_simu_3 ,
+    ] ,
+    animation : 'one_slider_' ,
+    ani_dur : 'var(--speed_1)' ,
+    bar_wid : '15'
+  } ,
+  {
     name : 'Sspectrum' ,
     info : <p> is a high resolution<span className='for-st' > audio spectrum</span> and full featured audio player, with modern styles and custom features. based from the audioMotion.js analyzer. </p> ,
     link : 'https://Sspectrum.netlify.app' ,
@@ -26,7 +43,7 @@ export const projects = [
     ] ,
     animation : 'one_slider_' ,
     ani_dur : 'var(--speed_1)' ,
-    bar_wid : '20'
+    bar_wid : '30'
   } ,
   {
     name : 'Sh-wave' ,
@@ -39,7 +56,7 @@ export const projects = [
     ] ,
     animation : 'one_slider_' ,
     ani_dur : 'var(--speed_1)' ,
-    bar_wid : '40' ,
+    bar_wid : '45' ,
   } ,
   {
     name : 'Twamigo Media' ,
@@ -65,7 +82,7 @@ export const projects = [
     ] ,
     animation : 'thir_slider_' ,
     ani_dur : 'var(--speed_2)' ,
-    bar_wid : '80' 
+    bar_wid : '75' 
   } ,
   {
     name : 'Linear' ,
@@ -78,6 +95,6 @@ export const projects = [
     ] ,
     animation : 'four_slider_' ,
     ani_dur : 'var(--speed_1)' ,
-    bar_wid : '100' ,
+    bar_wid : '90' ,
   }
 ]

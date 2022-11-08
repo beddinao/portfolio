@@ -53,7 +53,8 @@ function About (){
   useEffect(()=>{
     draw_svg();
     observe() ;
-    set_scroll_snapping( document.body.parentNode , document.querySelectorAll("#center") )
+    set_scroll_snapping( document.body.parentNode , document.querySelectorAll("#center") ) ;
+    document.title = ' | About' ;
     return () => {
       dis_fun(document.body.parentNode)
     }

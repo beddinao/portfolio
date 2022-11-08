@@ -13,7 +13,8 @@ function Work(){
   $(document).ready(()=>{window.scrollTo( 0 , 0 ) }) ;
   useEffect(()=>{
     observe() ;
-    set_scroll_snapping( document.body.parentNode , document.querySelectorAll('#center') )
+    set_scroll_snapping( document.body.parentNode , document.querySelectorAll('#center') ) ;
+    document.title = ' | Work' ;
     return () => {
       dis_fun( document.body.parentNode )
     }
